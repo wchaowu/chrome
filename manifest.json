@@ -1,0 +1,26 @@
+{
+    "name": "携程ctrip",
+    "version": "1.0.0",
+	"manifest_version": 2,
+    "description": "携程旅游网技术团队—作者吴超武",
+    "app": {
+        "launch": {
+            "web_url": "http://www.ctrip.com"
+        },
+        "urls": [ "http://www.ctrip.com" ]
+    },	
+   "browser_action": { 
+      "default_icon": "ctrip.png", 
+      "popup": "popup.html" 
+   },
+    "icons": {
+        "128": "ctripbig.png",
+        "48": "ctrip.png",
+        "16": "ctrip.png"
+    },
+    "requirements":{
+        "3D":{
+            "features":["css3d","webgl"]
+        }
+    } 
+}
